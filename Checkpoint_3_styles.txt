@@ -1,0 +1,18 @@
+Differences between relative and absolute positioning
+<!-- Relative positions an element relative to its normal position and depends on the flow of other element, if an element is placed within a parent element. Whereas Absolute lets you place  an element anywhere relative to nearest positioned ancestor. it won’t affect or be affected by any other element in the flow -->
+
+box-sizing: border-box VS default box-sizing
+
+<!-- box-sizing: border-box lets u add borders or paddings to an element without changing the height and width of an element. Default box-sizing will let you add paddings and borders but it will also increase an element's height and width. -->
+
+
+ 
+div.relative {
+position: relative;
+width: 200px;
+}
+
+div.absolute {
+width: 40px;
+postion: absolute
+}
