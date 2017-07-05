@@ -72,7 +72,7 @@ body {
    /* Style information will go here */
      html { font-size: 112%; }
 
-.column {
+     .column {
          float: left;
          padding-left: 1rem;
          padding-right: 1rem;
