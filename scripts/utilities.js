@@ -4,5 +4,3 @@ var forEach = function(array, callback) {
     }
 };
 
-//Use a loop to go through all elements in the points array.
-//Execute a callback for each element.
